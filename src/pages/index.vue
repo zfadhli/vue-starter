@@ -1,4 +1,5 @@
 <script setup>
+  useTitle('Home | Vue Starter')
   const name = $ref('')
   const nameUpperCase = computed(() => name.toUpperCase())
 </script>
